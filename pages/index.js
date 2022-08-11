@@ -3,8 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 
 function Index() {
-  const [value, setValue] = useState(false);
-  const [data, setData] = useState(false);
+  const [value, setValue] = useState(true);
+  const [data, setData] = useState(true);
 
   const getShop = async () => {
     try {
