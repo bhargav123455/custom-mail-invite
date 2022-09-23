@@ -19,14 +19,6 @@ import { useAppBridge } from "@shopify/app-bridge-react";
 import AppWrapper from "../components/wrapper";
 //import ClientRouter from "../components/ClientRouter";
 import "./index.css";
-import ClientRouter from '../components/ClientRouter';
-
-const client = new ApolloClient({
-  fetchOptions: {
-    credentials: "include",
-    mode: "cors",
-  },
-});
 
 const InitAuthSettings = () => {
   //For API Requests
