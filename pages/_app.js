@@ -50,7 +50,7 @@ function MyApp({ Component, pageProps, router }) {
   const config = {
     apiKey: API_KEY,
     shopOrigin: router.query.shop,
-    forceRedirect: true,
+    forceRedirect: false,
     host: Buffer.from(shopHost).toString("base64"),
   };
 
